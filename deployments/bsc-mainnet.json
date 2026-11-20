@@ -1,0 +1,27 @@
+{
+  "network": "BNB Smart Chain",
+  "chainId": 56,
+  "contracts": {
+    "SenToken": {
+      "address": "0xF9cA49b9DCAD63270553899494b9dc9E11687B02",
+      "standard": "BEP-20",
+      "symbol": "SEN",
+      "decimals": 9
+    },
+    "SenBridgeProxy": {
+      "address": "0xf200a73aC8227eb7E23f591E2C178Ac0177753D7"
+    },
+    "SenBridgeImplementation": {
+      "address": "0xE9977B52c75660A52dC530E640FfbD7aAF48617e"
+    }
+  },
+  "markets": {
+    "pancakeswapV3SenWbnb": "0x164eB601477968f478647CB033D4c9e9985e1fBD"
+  },
+  "ton": {
+    "senJetton": "EQA7MUqI2jT7y9_SiVJu3IMFmsMme0zLojFxLET3CzOqXzaA",
+    "lockbox": "EQBLJRWyoREYzgvfbFEhyU4q_6DAmoqHaFG4omn-4OkLDKOT"
+  },
+  "website": "https://myzen.today",
+  "bridge": "https://myzen.today/bridge/"
+}
